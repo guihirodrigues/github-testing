@@ -1,0 +1,79 @@
+
+# 1. Faça um programa que leia um número inteiro e o imprima. 
+
+num=int(input("Digite um número inteiro: "))
+print("O valor digitado foi:",  num)
+
+# 2. Faça um programa que leia um número real e o imprima. 
+
+num=float(input("Digite um número real: "))
+print("O valor digitado foi:",  num)
+
+# 3. Peça ao usuário para digitar três valores inteiros e imprima a soma deles.
+
+num1=int(input("Digite o primeiro valor: "))
+num2=int(input("Digite o proximo valor: "))
+num3=int(input("Digite o último valor: "))
+print("A soma dos 3 valores digitados é:", num1+num2+num3)
+
+#4. Leia um número real e imprima o resultado do quadrado desse número. 
+
+num=float(input("Digite o valor desejado: "))
+print("O valor digitado foi:", num)
+print("O resultado digitado ao quadrado é:", num*num)
+
+#5. Leia um número real e imprima a quinta parte deste número.
+
+num=float(input("Digite o valor desejado: "))
+print("A quinta parte desse valor é: ", num/5)
+
+#6. Leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.
+#A formula de conversão é: F = C∗(9.0/5.0)+32.0, sendo F a temperatura em Fahrenheit
+#e C a temperatura em Celsius. 
+
+tempC=int(input("Digite o valor da temperatura em Celsius: "))
+f=tempC= (9.0/5.0)+32.0
+print("Sua temperatura após a conversão é:", f)
+
+#7. Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus Celsius.
+#A formula de conversão é: C = 5.0 ∗ (F − 32.0)/9.0, sendo C a temperatura em Celsius e
+#F a temperatura em Fahrenheit. 
+
+temF=float(input("Digite o valor da temperatura em Fahrenheit: "))
+temC= (temF - 32) * 5/9
+tem_c=round(temC)
+print("A sua temperatura após a conversão é:", tem_c)
+
+
+#8. Leia uma temperatura em graus Kelvin e apresente-a convertida em graus Celsius. A
+#formula de conversão é: C = K − 273.15, sendo C a temperatura em Celsius e K a
+#temperatura em Kelvin. 
+
+kelvin=float(input("Digite a temperatura desejada: "))
+Celsius= (kelvin-273.15)
+print("A sua temperatura após a conversão é:",Celsius)
+
+#9. Leia uma temperatura em graus Celsius e apresente-a convertida em graus Kelvin. A
+#formula de conversão é: K = C + 273.15, sendo C a temperatura em Celsius e K a
+#temperatura em Kelvin. 
+
+tempc=float(input("Digite a temperatura em graus Celsius: "))
+print("Sua temperatura após a conversão é: ",tempc+273.15)
+
+#10. Leia uma velocidade em km/h (quilômetros por hora) e apresente-a convertida em
+#m/s (metros por segundo). A formula de conversão é: M = K/3.6, sendo K a velocidade
+#em km/h e M em m/s. 
+
+km=float(input("Insira a velocidade em km: "))
+print("A velocidade informada foi: ", km,"Km/h")
+print("Após a conversão de Km/h em m/s o valor obtido é: ",km/3.6,"m/s" )
+
+11. Leia uma velocidade em m/s (metros por segundo) e apresente-a convertida em km/h
+(quilômetros por hora). A formula de conversão é: K = M ∗ 3.6, sendo K a velocidade
+em km/h e M em m/s. 
+"""
+ms=float(input("Insira a velocidade em m/s: "))
+print("A velocidade informada foi: ", ms,"m/s")
+print("Após a conversão de m/s para Km/h o valor obtido é: ",ms*3.6,"Km/h" )
+	 
+				 
