@@ -1,0 +1,23 @@
+
+
+Git = Controle de historico, trabalho em equipe, confiabilidade, ramificação de projeto
+
+git init = ele cria uma pasta oculta no windows, essa pasta salva meu historico de versões (são snapshot = prints de onde a minha pasta se encontra)
+
+commit = significa perpetrar ou consolidadr = salvar o codigo na versão atual no meu diretorio que será o Git
+
+As três áreas de um projeto GIT
+
+DIRETORIO DE TRABALHO
+É o local da versão do projeto a qual se está trabalhando
+ÁREA DE STAGING(PREPARAÇÃO)
+è um arquivo que armazena informações sobre o que será inserido no seu p´roximo commit
+REPOSITÓRIO
+è o diretório .git, onde consolidamos nossos arquivos
+
+primeiro estado de um arquivo é UNTRACKED (significa que ele não esta vendo o arquivo)
+UMMODIFIED 
+MODIFIED
+STAGED
+
+git status = fala como se encontra o meu arquivo
